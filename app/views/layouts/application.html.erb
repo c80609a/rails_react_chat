@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ReactChat</title>
+    <%= csrf_meta_tags %>
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <%= yield %>
+    <%= javascript_pack_tag 'application' %>
+  </body>
+</html>
